@@ -1,0 +1,33 @@
+body {
+    font-family: Helvetica;
+    background-color: rgb(219, 219, 219);
+}
+.title {
+    font-size: 38px;
+    text-align: center;
+}
+
+.tableName {
+    font-size: 28px;
+    text-align: center;
+    color: blueviolet;
+}
+
+table {
+    border: 2px solid blueviolet;
+    margin: auto;
+}
+
+tbody tr th, td {
+    border-top: 1px solid blueviolet;
+}
+
+thead th {
+    background-color: violet;
+}
+
+tbody tr th {
+    font-family: monospace;
+    font-weight: lighter;
+    background-color: rgb(255, 255, 255);
+}
