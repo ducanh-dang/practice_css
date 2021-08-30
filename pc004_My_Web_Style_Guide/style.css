@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 82%;
+    margin: 40px auto;
+    min-width: 350px;
+    background-color: rgb(247, 238, 239);
+    font-family: Nunito;
+    font-size: 18px;
+}
+
+section {
+    border: 2px dotted grey;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+section ul {
+    margin: 15px 50px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 28px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h3 {
+
+}
+
+.colors div {
+    text-align: center;
+    width: 15%;
+    min-width: 90px;
+    height: 130px;
+    display: inline-block;
+    margin: 30px 2%;
+    color: honeydew;
+}
+
+.colors div p {
+    height: 20px;
+    margin: 30px auto;
+}
+
+.fonts h3 {
+    text-decoration: underline;
+}
+
+.fonts div {
+    display: inline-block;
+    width: 30%;
+    min-width: 180px;
+    line-height: 1.5;
+    vertical-align: top;
+    margin: 15px 10px;
+}
+
+.style2 {
+    font-weight: bold;
+}
+
+.style3 {
+    font-style: italic;
+}
+
+#font1 {
+    font-family: 'Source Code Pro';
+}
+
+#font2 {
+    font-family: Nunito;
+}
+
+#font3 {
+    font-family: 'Merriweather Sans';
+}
+
+
+#lightpink {
+    color: black;
+    background-color: #F2CED8;
+}
+
+#pink {
+    background-color: #F25EA3;
+}
+
+#blue {
+    background-color: #0487D9;
+}
+
+#lightblue {
+    background-color: #A0E3F2;
+}
+
+#cyan {
+    background-color: #04D9D9;
+}
